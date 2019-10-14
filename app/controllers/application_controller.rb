@@ -21,7 +21,7 @@ class ApplicationController < Sinatra::Base
     if params[:username] != "" && params[:password] != ""
 
     else
-
+      
     end
   end
 
