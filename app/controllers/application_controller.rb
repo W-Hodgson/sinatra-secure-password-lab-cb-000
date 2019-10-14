@@ -18,7 +18,11 @@ class ApplicationController < Sinatra::Base
 
   post "/signup" do
     #your code here
+    if params[:username] != "" && params[:password] != ""
 
+    else
+
+    end
   end
 
   get '/account' do
